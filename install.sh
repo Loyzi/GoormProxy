@@ -14,8 +14,12 @@ tmux new-session -s socks
 GREEN='\033[1;32m'
 BLUE='\033[1;34m'
 WHITE='\033[1;37m'
+echo
+echo
+echo
 echo "${GREEN}Installation successful!"
 echo "${BLUE}Command to start proxy : ${WHITE}/usr/bin/3proxy /etc/3proxy/3proxy.cfg"
+echo
 echo "Port : 1080"
 echo "Login without password"
 echo "Combination for detach : Ctrl+B+D"
