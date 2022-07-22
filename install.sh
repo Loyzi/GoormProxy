@@ -11,7 +11,14 @@ cp bin/3proxy /usr/bin/
 cd /etc/3proxy ; wget https://raw.githubusercontent.com/Loyzi/GoormProxy/main/3proxy.cfg
 cd ~ ; rm 0.9.3.tar.gz ; rm -rf 3proxy-0.9.3
 tmux new-session -s socks
-echo "Installation successful!"
-echo "Command to start proxy: /usr/bin/3proxy /etc/3proxy/3proxy.cfg"
+GREEN='\033[1;32m'
+BLUE='\033[1;34m'
+WHITE='\033[1;37m'
+echo "${GREEN}Installation successful!"
+echo "${BLUE}Command to start proxy : ${WHITE}/usr/bin/3proxy /etc/3proxy/3proxy.cfg"
+echo "Port : 1080"
 echo "Login without password"
-echo "Combination for detach: Ctrl+B+D"
+echo "Combination for detach : Ctrl+B+D"
+echo
+echo
+echo
