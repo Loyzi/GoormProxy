@@ -9,7 +9,7 @@ mkdir -p /var/log/3proxy
 mkdir /etc/3proxy
 cp bin/3proxy /usr/bin/
 cd /etc/3proxy ; wget https://raw.githubusercontent.com/Loyzi/GoormProxy/main/3proxy.cfg
-cd ~ ; rm 0.9.3.tar.gz ; rm -rf 3proxy-0.9.3
+cd ~ ; rm 0.9.3.tar.gz ; rm -rf 3proxy-0.9.3 ; rm install.sh
 tmux new-session -s socks
 GREEN='\033[1;32m'
 BLUE='\033[1;34m'
