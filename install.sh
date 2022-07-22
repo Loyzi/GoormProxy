@@ -1,6 +1,6 @@
 apt update -y
 apt upgrade -y
-apt install htop tmux -y
+apt install htop nano tmux -y
 wget https://github.com/z3APA3A/3proxy/archive/0.9.3.tar.gz
 tar xzf 0.9.3.tar.gz
 cd 3proxy-*
